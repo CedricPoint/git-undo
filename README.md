@@ -1,5 +1,7 @@
 # git undo
 
+**English** · [Français](README.fr.md)
+
 **You just did something to your repository. This tells you how to take it
 back.** It reads your reflog, works out what the last operation actually was,
 and prints the exact command that reverses it — in plain language, with the
