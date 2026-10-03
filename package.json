@@ -1,0 +1,44 @@
+{
+  "name": "git-undo",
+  "version": "0.1.0",
+  "description": "Tells you how to undo the last thing you did in git, reads your reflog, and never runs anything you did not ask for.",
+  "type": "module",
+  "bin": {
+    "git-undo": "bin/git-undo.js"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/run.js",
+    "undo": "node bin/git-undo.js"
+  },
+  "keywords": [
+    "git",
+    "undo",
+    "reflog",
+    "recovery",
+    "cli",
+    "devtools",
+    "developer-experience"
+  ],
+  "license": "MIT",
+  "author": "CedricPoint",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CedricPoint/git-undo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CedricPoint/git-undo/issues"
+  },
+  "homepage": "https://github.com/CedricPoint/git-undo#readme",
+  "engines": {
+    "node": ">=18"
+  }
+}
